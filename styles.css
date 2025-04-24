@@ -45,4 +45,21 @@ body {
     transition: background-color 0.2s ease;
 }
 
+.buttons button:hover {
+    background-color: #d6d9df;
+}
 
+.buttons button:active {
+    background-color: #c5c8cf;
+}
+
+.buttons button:nth-child(4n),
+.buttons button:nth-child(16) {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.buttons button:nth-child(4n):hover,
+.buttons button:nth-child(16):hover {
+    background-color: #357bd8;
+}
